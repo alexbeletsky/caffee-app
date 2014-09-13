@@ -49,7 +49,7 @@ define(function (require) {
         },
 
         showError: function () {
-            this.$('.errors').addClass('hide');
+            this.$('.errors').removeClass('hide');
         }
     });
 

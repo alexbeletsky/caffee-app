@@ -5,6 +5,7 @@ define(function (require) {
     var ViewManager = require('viewManager');
 
     var loginApp = require('apps/login/app');
+    var caffeesApp = require('apps/caffees/app');
 
     var viewManager = new ViewManager();
 
@@ -19,7 +20,7 @@ define(function (require) {
         },
 
         caffees: function () {
-            console.log('caffees');
+            caffeesApp.run(viewManager);
         }
     });
 
