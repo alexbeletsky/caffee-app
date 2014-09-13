@@ -3,7 +3,7 @@ define(function (require) {
 
     var MainView = Backbone.View.extend({
         render: function () {
-            this.$.html('<h1>Caffees View</h1>');
+            this.$el.html('<h1>Caffees View</h1>');
         }
     });
 
